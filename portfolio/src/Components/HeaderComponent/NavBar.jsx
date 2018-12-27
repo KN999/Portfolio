@@ -1,14 +1,35 @@
-import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
-class NavBar extends Component {
-  render() {
+import React, { PropTypes } from 'react';
+//import Home from "./Home";
+import "./NavBar.css";
+//import  Link  from 'react-router-dom';
+
+class NavBar extends React.Component {
+  render () {
     return (
-      <header>
-        <ul id="headerButtons">
-          <li className="navButton"><Link to="">Home</Link></li>
-        </ul>
-      </header>
-    )
+      <ul className="NavBar">
+        <li>
+          <a href="/">
+              Home
+          </a>
+        </li>
+        <li className = "inline">
+          <a href="/">
+              Project
+          </a>
+        </li>
+        <li className = "inline">
+          <a href="/">
+              Skills
+          </a>
+        </li>
+        <li className = "inline">
+          <a href="/">
+              Contacts
+          </a>
+        </li>
+      </ul>
+    );
   }
 }
+
 export default NavBar;
