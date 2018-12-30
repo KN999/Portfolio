@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import "./HomePage.css";
+import wally from './wally.jpg';
+
 class HomePage extends Component {
   render() {
     return (

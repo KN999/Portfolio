@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Ubuntu');
+
 header {
     display: block;
     width: 100%;
@@ -19,4 +21,8 @@ header {
     height: 50px;
     background-color: black;
     color: white;
+  }
+
+  body {
+    font-family: 'Raleway';
   }

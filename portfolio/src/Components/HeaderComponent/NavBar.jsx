@@ -6,28 +6,30 @@ import "./NavBar.css";
 class NavBar extends React.Component {
   render () {
     return (
-      <ul className="NavBar">
-        <li>
-          <a href="/">
-              Home
-          </a>
-        </li>
-        <li className = "inline">
-          <a href="/">
-              Project
-          </a>
-        </li>
-        <li className = "inline">
-          <a href="/">
-              Skills
-          </a>
-        </li>
-        <li className = "inline">
-          <a href="/">
-              Contacts
-          </a>
-        </li>
-      </ul>
+      <header>
+        <ul>
+          <li>
+            <a href="/">
+                Home
+            </a>
+          </li>
+          <li className = "inline">
+            <a href="/">
+                Project
+            </a>
+          </li>
+          <li className = "inline">
+            <a href="/">
+                Skills
+            </a>
+          </li>
+          <li className = "inline">
+            <a href="/">
+                Contacts
+            </a>
+          </li>
+        </ul>
+      </header>
     );
   }
 }
