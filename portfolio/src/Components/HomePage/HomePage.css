@@ -1,14 +1,10 @@
-.HomePage {
+.homepage {
     text-align: center; 
     color: #b5005c;
     font-size: 28px;
-    margin: -10px;
-    margin-left: -8px;
-    margin-right: -8px;
     height: 80%;
   }
 
- .HomeHead {
+ .homepage-heading {
      text-decoration: none;
-     
  }
