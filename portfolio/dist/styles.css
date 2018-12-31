@@ -1,28 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway|Ubuntu');
 
-header {
-    display: block;
-    width: 100%;
-    height: 50px;
-    color: white;
-	background-color:black;
-  }
-  #headerButtons {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  .navButton {
-    float: right;
-  }
-  footer {
-    display: block;
-    width: 100%;
-    height: 50px;
-    background-color: black;
-    color: white;
+  html {
+    height: 100%;
   }
 
   body {
+    height: 97%;
     font-family: 'Raleway';
+  }
+
+  #app {
+    height: 100%;
   }

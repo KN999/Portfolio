@@ -1,9 +1,7 @@
 import React, { PropTypes } from 'react';
-//import Home from "./Home";
-import "./NavBar.css";
-//import  Link  from 'react-router-dom';
+import "./Header.css";
 
-class NavBar extends React.Component {
+class Header extends React.Component {
   render () {
     return (
       <header>
@@ -34,4 +32,4 @@ class NavBar extends React.Component {
   }
 }
 
-export default NavBar;
+export default Header;

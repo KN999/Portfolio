@@ -7,17 +7,12 @@ li {
 
 ul {
     text-align: center;
-    padding-left: 0px;
-    padding-bottom: 24px;
-    padding-top: 24px;
+    width: auto;
     margin-top: 0px;
-    margin-bottom: -10px;
     background-color: black;
-
 }
 
 a {
-  
     display: inline-block;
     text-decoration: none;
     color: white;

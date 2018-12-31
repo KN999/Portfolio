@@ -1,5 +1,5 @@
 .images {
     display: inline-block;
     text-align: center;
+    width: -webkit-fill-available;
 }
-
