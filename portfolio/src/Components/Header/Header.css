@@ -1,0 +1,25 @@
+li {
+    display: inline-block;
+    font-size: 25px;
+    padding-right:45px;
+    margin-right: 45px;
+}
+
+ul {
+    text-align: center;
+    width: auto;
+    margin-top: 0px;
+    background-color: black;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
