@@ -62,7 +62,7 @@ class Projects extends Component {
         var Project = [];
 
         for(var key in Projects) {
-                Project.push(<tr>
+                Project.push(<tr className="Table-Row">
                     <td><img src={require(`${Projects[key].url}`)} className="Project-Image" /></td>
                     <td>{Projects[key].desc}</td>
                 </tr>)
