@@ -5,24 +5,24 @@ class Header extends React.Component {
   render () {
     return (
       <header>
-        <ul>
-          <li>
-            <a href="/">
+        <ul className="Header-ul">
+          <li className="Header-li">
+            <a href="/" className="Header-a">
                 Home
             </a>
           </li>
-          <li className = "inline">
-            <a href="/">
+          <li className="Header-li">
+            <a href="/" className="Header-a">
                 Project
             </a>
           </li>
-          <li className = "inline">
-            <a href="/">
+          <li className = "Header-li">
+            <a href="/" className="Header-a">
                 Skills
             </a>
           </li>
-          <li className = "inline">
-            <a href="/">
+          <li className = "Header-li">
+            <a href="/" className="Header-a">
                 Contacts
             </a>
           </li>

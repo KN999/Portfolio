@@ -23,11 +23,11 @@ module.exports = {
       },
 	  {
         test: /\.(jpg)$/,
-        loader: 'url-loader?limit=10000000&minetype=image/jpg'
+        loader: 'url-loader?limit=900000&minetype=image/jpg'
       },
-      {
-        test: /\.jpg/,
-        loader: 'file-loader'
+	  {
+        test: /\.(JPG)$/,
+        loader: 'url-loader?limit=9000000&minetype=image/JPG'
       },
       {
         test : /\.jsx?/,

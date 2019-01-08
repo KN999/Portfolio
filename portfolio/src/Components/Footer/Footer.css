@@ -1,5 +1,13 @@
-.images {
+.Footer-li {
     display: inline-block;
+    font-size: 25px;
+    padding-right:45px;
+    margin-right: 45px;
+}
+
+.Footer-ul {
     text-align: center;
-    width: -webkit-fill-available;
+    width: auto;
+    margin-top: 0px;
+    background-color: black;
 }
