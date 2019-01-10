@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import './Project.css';
+import './Projects.css';
 
 class Projects extends Component {
   render() {
 
-        var Projects = {
+        var Project = {
             projectName1 : {
-                url : "./ProjectImage/ProjectManagement.png",
+                url : "./ProjectsImages/ProjectsManagement.png",
                 desc : <p>
                             Ceratosaurus was a theropod dinosaur in the Late Jurassic, around 150 million years ago. This genus was first described in 1884 by American
                             paleontologist Othniel Charles Marsh based on a nearly complete skeleton discovered in Garden Park, Colorado, in rocks belonging to the 
@@ -15,11 +15,11 @@ class Projects extends Component {
                             prominent, ridge-like horn on the midline of the snout and a pair of horns over the eyes. The forelimbs were very short but remained fully 
                             functional, with four-fingered hands. 
                          </p>,
-                alt : "Project 1" 
+                alt : "projects 1" 
             },
 
-            projectName2 : {
-                url : "./ProjectImage/ProjectManagement.png",
+            projectsName2 : {
+                url : "./ProjectsImages/ProjectsManagement.png",
                 desc : <p>
                             Ceratosaurus was a theropod dinosaur in the Late Jurassic, around 150 million years ago. This genus was first described in 1884 by American
                             paleontologist Othniel Charles Marsh based on a nearly complete skeleton discovered in Garden Park, Colorado, in rocks belonging to the 
@@ -29,11 +29,11 @@ class Projects extends Component {
                             functional, with four-fingered hands.
                         </p>,
 
-                alt : "Project 2"
+                alt : "projects 2"
             },
 
-            projectName3 : {
-                url : "./ProjectImage/ProjectManagement.png",
+            projectsName3 : {
+                url : "./ProjectsImages/ProjectsManagement.png",
                 desc : <p>
                             Ceratosaurus was a theropod dinosaur in the Late Jurassic, around 150 million years ago. This genus was first described in 1884 by American
                             paleontologist Othniel Charles Marsh based on a nearly complete skeleton discovered in Garden Park, Colorado, in rocks belonging to the 
@@ -42,11 +42,11 @@ class Projects extends Component {
                             prominent, ridge-like horn on the midline of the snout and a pair of horns over the eyes. The forelimbs were very short but remained fully 
                             functional, with four-fingered hands.
                         </p>,
-                alt : "Project 3"
+                alt : "projects 3"
             },
 
-            projectName4 : {
-                url : "./ProjectImage/ProjectManagement.png",
+            projectsName4 : {
+                url : "./ProjectsImages/ProjectsManagement.png",
                 desc : <p>
                             Ceratosaurus was a theropod dinosaur in the Late Jurassic, around 150 million years ago. This genus was first described in 1884 by American
                             paleontologist Othniel Charles Marsh based on a nearly complete skeleton discovered in Garden Park, Colorado, in rocks belonging to the 
@@ -55,16 +55,16 @@ class Projects extends Component {
                             prominent, ridge-like horn on the midline of the snout and a pair of horns over the eyes. The forelimbs were very short but remained fully 
                             functional, with four-fingered hands.
                         </p>,
-                alt : "Project 4"
+                alt : "projects 4"
             }
         };
 
-        var Project = [];
+        var projects = [];
 
-        for(var key in Projects) {
-                Project.push(<tr className="Table-Row">
-                    <td><img src={require(`${Projects[key].url}`)} className="Project-Image" /></td>
-                    <td>{Projects[key].desc}</td>
+        for(var key in Project) {
+                projects.push(<tr className="Table-Row">
+                    <td><img src={require(`${Project[key].url}`)} className="Projects-Image" /></td>
+                    <td>{Project[key].desc}</td>
                 </tr>)
         }
         
@@ -73,8 +73,8 @@ class Projects extends Component {
 
     return (
       <div>
-        <table className="Project-Table"> 
-           {Project}
+        <table className="Projects-Table"> 
+           {projects}
         </table>
       </div>
     )
