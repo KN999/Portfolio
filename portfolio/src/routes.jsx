@@ -4,7 +4,7 @@ import { Route, IndexRoute } from 'react-router';
 import App from './Components/App/App';
 //import MainPage from './components/MainPage';
 //import SomePage from './componenets/SomePage';
-import Project from './Components/Project/Project';
+import Project from './Components/Projects/Projects';
 
 export default (
     <Route path="/" component={App}>

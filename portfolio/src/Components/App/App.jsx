@@ -3,7 +3,7 @@ import Header  from "./../Header/Header";
 import HomePage from "./../HomePage/HomePage";
 import Footer from "./../Footer/Footer";
 import "./App.css";
-import Projects from "./../Project/Project";
+import Projects from "./../Projects/Projects";
 
 const App = () => {
   return (
