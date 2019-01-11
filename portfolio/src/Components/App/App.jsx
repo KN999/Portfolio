@@ -4,13 +4,14 @@ import HomePage from "./../HomePage/HomePage";
 import Footer from "./../Footer/Footer";
 import "./App.css";
 import Projects from "./../Projects/Projects";
+import Skills from "./../Skills/Skills";
 
 const App = () => {
   return (
     <div className="container">
       <Header/>
         <main>
-            <Projects/>
+            <Skills/>
         </main>
       <Footer />
     </div>
