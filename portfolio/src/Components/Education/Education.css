@@ -1,0 +1,27 @@
+.Education-Heading {
+    text-align: center;
+    font-size: 35px;
+    border-bottom: 1px solid lightgrey;
+    padding: 30px;
+}
+
+.Education {
+    display: inline-flex;
+    list-style-type: none;
+    width: 100%;
+    padding-left: 0px;
+}
+
+.list-of-Education {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+span.single-timeline-horizontal {
+    display: inline-block;
+    background: #b2c1ce;
+    height: 1px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}

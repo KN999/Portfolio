@@ -59,6 +59,12 @@ class Projects extends Component {
             }
         };
 
+        var Heading = (
+            <header>
+                <h1 className="Projects-Heading">Projects</h1>    
+            </header>
+        );
+
         var projects = [];
 
         for(var key in Project) {
@@ -72,7 +78,10 @@ class Projects extends Component {
 
 
     return (
-      <div>
+        <div>
+          {Heading}
+
+        
         <table className="Projects-Table"> 
            {projects}
         </table>
