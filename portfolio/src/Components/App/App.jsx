@@ -5,13 +5,15 @@ import Footer from "./../Footer/Footer";
 import "./App.css";
 import Projects from "./../Projects/Projects";
 import Skills from "./../Skills/Skills";
+import Education from "./../Education/Education";
+
 
 const App = () => {
   return (
     <div className="container">
       <Header/>
         <main>
-            <Skills/>
+            <Education/>
         </main>
       <Footer />
     </div>
