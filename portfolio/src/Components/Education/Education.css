@@ -1,15 +1,17 @@
-.Education-Heading {
+/*.Education-Heading {
     text-align: center;
     font-size: 35px;
     border-bottom: 1px solid lightgrey;
     padding: 30px;
-}
+}*/
 
 .Education {
     display: inline-flex;
     list-style-type: none;
-    width: 100%;
+    width: 90%;
     padding-left: 0px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .list-of-Education {

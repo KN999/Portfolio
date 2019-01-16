@@ -12,3 +12,12 @@
   #app {
     height: 100%;
   }
+
+header > h1 {
+    text-align: center;
+    font-size: 35px;
+    border-bottom: 1px solid lightgrey;    
+    padding-bottom: 3%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+} 
