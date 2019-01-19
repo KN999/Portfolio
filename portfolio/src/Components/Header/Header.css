@@ -1,15 +1,21 @@
 .Header-li {
     display: inline-block;
     font-size: 25px;
-    padding-right:45px;
-    margin-right: 45px;
+    margin-right: 5%;
+    margin-left: 5%;
+    width: 9%;
+    text-align: center;
 }
 
 .Header-ul {
     text-align: center;
-    width: auto;
+    width: 100%;
     margin-top: 0px;
     background-color: black;
+    padding-left: 0px;
+    padding-top: 2%;
+    position: fixed;
+    top: 0;
 }
 
 .Header-a {
@@ -20,6 +26,4 @@
 
 .Header-a:hover {
     color: red;
-    text-decoration: underline;
 }
-

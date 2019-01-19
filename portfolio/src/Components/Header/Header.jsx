@@ -1,33 +1,54 @@
-import React, { PropTypes } from 'react';
+import React, { Component } from 'react';
 import "./Header.css";
 
-class Header extends React.Component {
+class Header extends Component {
   render () {
+
+    var NavItems = {
+      Home : {
+        Name : "Home",
+        url : "#Home"
+      },
+
+      AboutMe : {
+        Name : "About Me",
+        url : "#AboutMe"
+      },
+
+      Education : {
+        Name : "Education",
+        url : "#Education"
+      },
+
+      Skills : {
+        Name : "Skills",
+        url : "#Skills"
+      },
+
+      Projects : {
+        Name : "Projects",
+        url : "#Projects"
+      }
+    };
+
+    var NavItem = [];
+
+    for(var key in NavItems) {
+      NavItem.push(
+        <li className="Header-li">
+          <a href={NavItems[key].url} className="Header-a">
+            {NavItems[key].Name}
+          </a>
+        </li>
+      );
+    }
+
     return (
-      <header>
+  
         <ul className="Header-ul">
-          <li className="Header-li">
-            <a href="/" className="Header-a">
-                Home
-            </a>
-          </li>
-          <li className="Header-li">
-            <a href="/" className="Header-a">
-                Project
-            </a>
-          </li>
-          <li className = "Header-li">
-            <a href="/" className="Header-a">
-                Skills
-            </a>
-          </li>
-          <li className = "Header-li">
-            <a href="/" className="Header-a">
-                Contacts
-            </a>
-          </li>
+          {NavItem}
         </ul>
-      </header>
+  
     );
   }
 }

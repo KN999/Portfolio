@@ -51,7 +51,7 @@ class Skills extends Component {
 
 
        var  Heading = (
-        <header>
+        <header id = "Skills"> 
         <h1 className="Skills-Heading">Skills</h1>
         </header>
        );

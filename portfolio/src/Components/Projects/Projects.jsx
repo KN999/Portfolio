@@ -60,7 +60,7 @@ class Projects extends Component {
         };
 
         var Heading = (
-            <header>
+            <header id = "Projects">
                 <h1 className="Projects-Heading">Projects</h1>    
             </header>
         );
@@ -74,14 +74,9 @@ class Projects extends Component {
                 </tr>)
         }
         
-        
-
-
     return (
         <div>
           {Heading}
-
-        
         <table className="Projects-Table"> 
            {projects}
         </table>
