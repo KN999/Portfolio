@@ -5,7 +5,7 @@ class AboutMe extends Component {
     render () {
 
         var Heading = (
-                        <header> 
+                        <header id = "AboutMe"> 
                         <h1 className="AboutMe-Heading"> AboutMe </h1>
                         </header>
 

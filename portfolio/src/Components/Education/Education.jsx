@@ -37,7 +37,7 @@ class Education extends Component {
         }
 
         var Heading = (
-            <header>
+            <header id = "Education">
                 <h1 className="Education-Heading">Education</h1>
             </header>
         );
