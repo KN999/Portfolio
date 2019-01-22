@@ -1,16 +1,10 @@
-/*.Skills-Heading {
-    text-align: center;
-    font-size: 35px;
-    border-bottom: 1px solid lightgrey;
-    padding: 30px;
-}
-*/
 .SkillsImage {
     border-radius: 50%;
     width: 100px;
     align-content: center;
     margin-left: 30px;
     margin-right: 30px;
+    margin-bottom: 40px;
 }
 
 .Logos {
