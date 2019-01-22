@@ -1,12 +1,5 @@
-/*.Projects-Heading {
-    text-align: center;
-    font-size: 35px;
-    border-bottom: 1px solid lightgrey;
-    padding: 30px;
-}*/
-
 .Projects-Image {
-        margin-right: 40px;
+        width: 100%;
 }
 
 
@@ -14,13 +7,40 @@
   
     border-collapse: collapse;
     table-layout: auto;
-    width: 88%;
-    margin-left: 6%;
-    margin-bottom: 6%;
-    margin-top: 6%;
-    margin-right: 6%;
+    width: 100%;
+    margin: 0%;
 }
 
+.Projects-div {
+    width: 82%;
+    margin: 9%;
+}
+.Table-Row {
+    width: 100%;
+    margin-bottom: 5%;
+}
+ 
+.Projects-td-Description {
+    padding: 0%;
+    vertical-align: top;
+    width: 75%;
+}
 
+.Projects-td-img {
+    width: 25%;
+    vertical-align: top;
+}
 
+.Projects-p {
+    text-align: justify;
+    margin: 0%;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 7%;
+}
+
+#Projects {
+    margin-bottom: 8%;
+}
 
