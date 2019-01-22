@@ -7,7 +7,7 @@ class Projects extends Component {
         var Project = {
             projectName1 : {
                 url : "./ProjectsImages/ProjectsManagement.png",
-                desc : <p>
+                desc : <p className="Projects-p">
                             Ceratosaurus was a theropod dinosaur in the Late Jurassic, around 150 million years ago. This genus was first described in 1884 by American
                             paleontologist Othniel Charles Marsh based on a nearly complete skeleton discovered in Garden Park, Colorado, in rocks belonging to the 
                             Morrison Formation. In 2000 and 2006, a partial specimen from the Lourinhã Formation of Portugal was described, providing evidence for the 
@@ -20,7 +20,7 @@ class Projects extends Component {
 
             projectsName2 : {
                 url : "./ProjectsImages/ProjectsManagement.png",
-                desc : <p>
+                desc : <p className="Projects-p">
                             Ceratosaurus was a theropod dinosaur in the Late Jurassic, around 150 million years ago. This genus was first described in 1884 by American
                             paleontologist Othniel Charles Marsh based on a nearly complete skeleton discovered in Garden Park, Colorado, in rocks belonging to the 
                             Morrison Formation. In 2000 and 2006, a partial specimen from the Lourinhã Formation of Portugal was described, providing evidence for the 
@@ -34,7 +34,7 @@ class Projects extends Component {
 
             projectsName3 : {
                 url : "./ProjectsImages/ProjectsManagement.png",
-                desc : <p>
+                desc : <p className="Projects-p">
                             Ceratosaurus was a theropod dinosaur in the Late Jurassic, around 150 million years ago. This genus was first described in 1884 by American
                             paleontologist Othniel Charles Marsh based on a nearly complete skeleton discovered in Garden Park, Colorado, in rocks belonging to the 
                             Morrison Formation. In 2000 and 2006, a partial specimen from the Lourinhã Formation of Portugal was described, providing evidence for the 
@@ -47,7 +47,7 @@ class Projects extends Component {
 
             projectsName4 : {
                 url : "./ProjectsImages/ProjectsManagement.png",
-                desc : <p>
+                desc : <p className="Projects-p">
                             Ceratosaurus was a theropod dinosaur in the Late Jurassic, around 150 million years ago. This genus was first described in 1884 by American
                             paleontologist Othniel Charles Marsh based on a nearly complete skeleton discovered in Garden Park, Colorado, in rocks belonging to the 
                             Morrison Formation. In 2000 and 2006, a partial specimen from the Lourinhã Formation of Portugal was described, providing evidence for the 
@@ -69,13 +69,13 @@ class Projects extends Component {
 
         for(var key in Project) {
                 projects.push(<tr className="Table-Row">
-                    <td><img src={require(`${Project[key].url}`)} className="Projects-Image" /></td>
-                    <td>{Project[key].desc}</td>
+                    <td className="Projects-td-img"><img src={require(`${Project[key].url}`)} className="Projects-Image" /></td>
+                    <td className="Projects-td-Description">{Project[key].desc}</td>
                 </tr>)
         }
         
     return (
-        <div>
+        <div className="Projects-div">
           {Heading}
         <table className="Projects-Table"> 
            {projects}
