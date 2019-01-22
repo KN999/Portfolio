@@ -7,13 +7,13 @@
   
     border-collapse: collapse;
     table-layout: auto;
-    width: 100%;
-    margin: 0%;
+    width: 86%;
+    margin-left: 7%;
+    margin-right: 7%;
 }
 
 .Projects-div {
-    width: 82%;
-    margin: 9%;
+    width: 100%;
 }
 .Table-Row {
     width: 100%;
@@ -41,6 +41,6 @@
 }
 
 #Projects {
-    margin-bottom: 8%;
+    margin-bottom: 7%;
 }
 
