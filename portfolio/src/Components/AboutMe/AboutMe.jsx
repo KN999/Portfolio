@@ -25,7 +25,7 @@ class AboutMe extends Component {
         );
 
         return (
-                <div>
+                <div className="whole-aboutme-div">
                     {Heading} 
                     <div className="aboutme-content-div"> 
                         <table className="aboutme-content-table">

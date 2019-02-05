@@ -57,7 +57,7 @@ class Skills extends Component {
        );
 
         return(
-        <div>
+        <div className="whole-skills-div">
           {Heading}
             <div className="Logos">  
                 {Logos}

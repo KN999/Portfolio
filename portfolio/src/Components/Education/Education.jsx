@@ -44,7 +44,7 @@ class Education extends Component {
 
 
         return (
-                <div>
+                <div className="whole-education-div">
                     {Heading}
                     <ul className="Education">
                     {Education}

@@ -1,10 +1,14 @@
 .homepage {
     text-align: center; 
-    color: #b5005c;
+    color: white;
     font-size: 28px;
-    margin-top: 23%;
+    margin-top: 4%;
+    padding-top: 15%;
     margin-bottom: 0%;
-    height: 350px;
+    height: 380px;
+    background-image: url("BG2.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
   }
 
  .homepage-heading {
