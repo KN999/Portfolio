@@ -1,9 +1,4 @@
-/*.Education-Heading {
-    text-align: center;
-    font-size: 35px;
-    border-bottom: 1px solid lightgrey;
-    padding: 30px;
-}*/
+
 
 .Education {
     display: inline-flex;
@@ -27,3 +22,4 @@ span.single-timeline-horizontal {
     margin-top: 20px;
     margin-bottom: 15px;
 }
+
