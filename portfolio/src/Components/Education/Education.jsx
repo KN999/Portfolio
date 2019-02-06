@@ -1,6 +1,7 @@
 import React , {Component} from "React";
 import "./Education.css";
 
+
 class Education extends Component {
     render() {
 
@@ -28,10 +29,10 @@ class Education extends Component {
 
         for (var key in Educations) {
             Education.push(<li className="list-of-Education">
-                <br/>{Educations[key].Year}
-                <br/>{Educations[key].Course}
-                <br/><span className="single-timeline-horizontal"></span>
-                <br/>{Educations[key].Place}
+                <br/><p>{Educations[key].Year}
+                <br/>{Educations[key].Course}</p>
+                <br/><div><i class="fal fa-circle"></i><span className="single-timeline-horizontal"></span></div>
+                <br/><p>{Educations[key].Place}</p>
                 </li>
             );
         }

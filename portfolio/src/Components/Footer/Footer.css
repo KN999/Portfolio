@@ -7,7 +7,8 @@
 
 .Footer-ul {
     text-align: center;
-    width: auto;
-    margin-top: 0px;
+    width: 94%;
+    margin: 0px;
+    padding: 3%;
     background-color: black;
 }

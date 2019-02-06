@@ -5,14 +5,14 @@ class AboutMe extends Component {
     render () {
 
         var Heading = (
-                        <header id = "AboutMe"> 
+                        <header>  
                         <h1 className="AboutMe-Heading"> AboutMe </h1>
                         </header>
 
         );
 
         var myimage = (
-                        <img src = {require("./photo1.jpg")} className="myimage"/>
+                        <img src = {require("./Profile Photo.jpg")} className="myimage"/>
 
         );
 
@@ -25,7 +25,7 @@ class AboutMe extends Component {
         );
 
         return (
-                <div className="whole-aboutme-div">
+                <div className="whole-aboutme-div" id = "AboutMe">
                     {Heading} 
                     <div className="aboutme-content-div"> 
                         <table className="aboutme-content-table">

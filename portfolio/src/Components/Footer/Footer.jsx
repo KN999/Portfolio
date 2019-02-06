@@ -21,8 +21,13 @@ class Footer extends Component {
       },
       google: {
         url: "https://plus.google.com/116455659890987722461",
-        imageurl: "./FooterImage/google+.png",
-        alttext: "Google"
+        imageurl: "./FooterImage/gmail.png",
+        alttext: "Gmail"
+      },
+      twitter: {
+        url: "https://twitter.com/NavinKu74782454",
+        imageurl: "./FooterImage/twitter.png",
+        alttext: "Twitter"
       }
     };
 
