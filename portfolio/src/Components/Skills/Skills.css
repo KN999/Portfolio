@@ -1,0 +1,14 @@
+.SkillsImage {
+    border-radius: 50%;
+    width: 100px;
+    align-content: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 40px;
+}
+
+.Logos {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 8%;
+}

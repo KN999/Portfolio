@@ -21,8 +21,13 @@ class Footer extends Component {
       },
       google: {
         url: "https://plus.google.com/116455659890987722461",
-        imageurl: "./FooterImage/google+.png",
-        alttext: "Google"
+        imageurl: "./FooterImage/gmail.png",
+        alttext: "Gmail"
+      },
+      twitter: {
+        url: "https://twitter.com/NavinKu74782454",
+        imageurl: "./FooterImage/twitter.png",
+        alttext: "Twitter"
       }
     };
 
@@ -30,8 +35,8 @@ class Footer extends Component {
       
       for(var key in items) {
         thumbnails.push(
-          <li>
-            <a href={items[key].url}>
+          <li className="Footer-li">
+            <a href={items[key].url} className="Footer-a">
               <img src={require(`${items[key].imageurl}`)} alttext={items[key].imageurl}/> 
             </a>
           </li>)
@@ -40,7 +45,7 @@ class Footer extends Component {
     return (
       <footer>
         <div>
-          <ul className="images">
+          <ul className="Footer-ul">
             {thumbnails}
          </ul>
         </div>

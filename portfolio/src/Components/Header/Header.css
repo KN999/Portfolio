@@ -1,25 +1,28 @@
-li {
+.Header-li {
     display: inline-block;
     font-size: 25px;
-    padding-right:45px;
-    margin-right: 45px;
-}
-
-ul {
+    margin-right: 5%;
+    margin-left: 5%;
+    width: 9%;
     text-align: center;
-    width: auto;
-    margin-top: 0px;
-    background-color: black;
 }
 
-a {
+.Header-ul {
+    text-align: center;
+    width: 100%;
+    margin: 0px;
+    background-color: black;
+    padding: 1%;
+    position: fixed;
+    top: 0;
+}
+
+.Header-a {
     display: inline-block;
     text-decoration: none;
     color: white;
 }
 
-a:hover {
-    color: red;
-    text-decoration: underline;
+.Header-a:hover {
+    color: lightseagreen;
 }
-

@@ -1,0 +1,46 @@
+.Projects-Image {
+        width: 100%;
+}
+
+
+.Projects-Table {
+  
+    border-collapse: collapse;
+    table-layout: auto;
+    width: 86%;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.Projects-div {
+    width: 100%;
+}
+.Table-Row {
+    width: 100%;
+    margin-bottom: 5%;
+}
+ 
+.Projects-td-Description {
+    padding: 0%;
+    vertical-align: top;
+    width: 75%;
+}
+
+.Projects-td-img {
+    width: 25%;
+    vertical-align: top;
+}
+
+.Projects-p {
+    text-align: justify;
+    margin: 0%;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 7%;
+}
+
+#Projects {
+    margin-bottom: 7%;
+}
+

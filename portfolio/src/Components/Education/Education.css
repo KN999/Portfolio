@@ -1,0 +1,25 @@
+
+
+.Education {
+    display: inline-flex;
+    list-style-type: none;
+    width: 90%;
+    padding-left: 0px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.list-of-Education {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+span.single-timeline-horizontal {
+    display: inline-block;
+    background: #b2c1ce;
+    height: 1px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+

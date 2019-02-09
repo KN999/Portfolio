@@ -5,10 +5,25 @@
   }
 
   body {
-    height: 97%;
+    height: 100%;
+    width: 100%;
+    margin: 0%;
     font-family: 'Raleway';
   }
 
   #app {
     height: 100%;
   }
+
+header > h1 {
+    text-align: center;
+    font-size: 35px;
+    border-bottom: 1px solid lightgrey;    
+    padding: 3%;
+    margin-top: 0px;
+    color: black;
+} 
+
+p {
+  font-size: larger;
+}

@@ -1,0 +1,34 @@
+
+
+.aboutme-content-div {
+    width: 86%;     
+    margin: 7%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.about-content-table {
+    width: 100%;
+}
+
+.aboutme-image-td {
+    width: 32%;
+}
+
+.myimage {
+    width: 100%;
+    height: 10%;
+}
+
+.aboutme-goodstuff-td {
+    width: 68%;
+    padding-top: 0px;
+    vertical-align: top;
+    font-size: larger;
+}
+
+.goodstuff {
+    margin-left: 5%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
